@@ -1,8 +1,10 @@
 /*
+	========
 	Eric Meyer's CSS Reset
 	http://meyerweb.com/eric/tools/css/reset/ 
 	v2.0 | 20110126
 	License: none (public domain)
+	========
 */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -36,29 +38,102 @@ table {
 	border-spacing: 0;
 }
 
-<!---->
+/*
+	========
+	Grid
+	========
+*/
 
-/*General*/
-h1{
-	font-size: 16pt;
+*,
+*: before,
+*: after{
+	-webkit-box-sizing: border-box;
+		 -moz-box-sizing: border-box;
+					box-sizing: border-box;
 }
+/*
+	========
+	General
+	========
+*/
 header{
 	position:;
-	background-color: #CCFFFF;
+	background-color: #5BEBCA;
+	width: 100%;
+	height: 50px;
+	padding: 5px;
 }
-
 footer{
-	background-color: #CCCFFF;
+	background-color: #5BEBCA;
+	width: 100%;
+	height: 50px;
+	padding: 5px;
+	text-align: center;
 }
 p{
 	font-family: serif;
 	font-size: 12pt;
-	color: #00000;
+	color: #000000;
+	display: inline-block;
+}
+a:link{
+	text-decoration: none;
+	color: #10C2D2;
+	display: inline-block;
+	/*take away underline*/
+}
+hr{
+	background-color: #FFF;
+	border: 0;
+	height: 1.5px;
 }
 
-/*Portfolio Pages*/
-.summary{
+.container{
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 1200px;
 }
 
+.content{
+	margin: 0;
+	padding: 10px;
+}
+/*
+	========
+	Typography
+	========
+*/
+h1, h2, h3, h4, h5, h6{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+h1{
+	font-size: 16pt;
+}
+
+/*
+	========
+	Buttons
+	========
+*/
+.btn{
+	border: 1px solid #FFF;
+	padding: 15px 30px;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0px;
+}
+
+/*
+	========
+	Portfolio Pages
+	========
+*/
+.opening{
+}
 .entry{
+	padding: 10px;
+	width: 50px;
+	height: 50px;
 }
