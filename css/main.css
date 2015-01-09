@@ -51,23 +51,56 @@ table {
 		 -moz-box-sizing: border-box;
 					box-sizing: border-box;
 }
+
+/*
+	========
+	Clearfix
+	========
+*/
+.group:before, .group:after{
+	content: "";
+	display: table;
+}
+.group:before{
+	clear: both;
+}
+.group:after{
+	clear: both;
+	*zoom: 1;
+}
+
 /*
 	========
 	General
 	========
 */
 header{
-	position:;
 	background-color: #5BEBCA;
+	position: fixed;
+	top: 0px;
 	width: 100%;
 	height: 80px;
+	z-index: 1;
+}
+.offset{
+	position: relative;
+	top: 80px;
 }
 footer{
 	background-color: #5BEBCA;
+	position: relative;
+	top: 80px;
+	clear: both;
 	width: 100%;
-	height: 50px;
+	height: 120px;
 	padding: 5px;
-	text-align: center;
+}
+.primary-footer small{
+	float: left;
+}
+.primary-footer{
+	padding-top: 44px;
+	padding-bottom: 44px;
 }
 p{
 	font-family: serif;
@@ -87,11 +120,14 @@ hr{
 	height: 1.5px;
 }
 
-.container{
+.container,
+.grid{
 	margin: 0 auto;
+	width: 1200px;
+}
+.container{
 	padding-left: 10px;
 	padding-right: 10px;
-	width: 1200px;
 }
 
 .content{
@@ -99,18 +135,34 @@ hr{
 	padding: 10px;
 	border: 1px solid #000;
 }
+
+.column-half{
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+.column-third{
+	padding: 10px 15px;
+}
 /*
 	========
 	Typography
 	========
 */
-h2, h3, h4, h5, h6{
-	display: inline-block;
+h1, h2, h3, h4, h5, h6{
 	margin-bottom: 10px;
 }
 h1{
-	display: inline-block;
 	font-size: 16pt;
+	margin: 20px 10px;
+}
+h2{
+	font-size: 15pt;
+	margin: 15px 30px;
+	margin-top: 25px;
+}
+h3{
+	font-size: 14pt;
 }
 
 /*
@@ -140,9 +192,16 @@ h1{
 	========
 */
 .opening{
+	float:left;
 }
 .entry{
-	padding: 10px;
-	width: 50px;
-	height: 50px;
+	display: inline-block;
+	vertical-align: top;
+	width: 32.81%;
+	
+}
+.description{
+	background-color: #5BEBCA;
+	height: 80px;
+	width: 100%;
 }
