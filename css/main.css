@@ -76,7 +76,7 @@ table {
 */
 header{
 	background-color: #5BEBCA;
-	position: fixed;
+	/*position: fixed;*/
 	top: 0px;
 	width: 100%;
 	height: 80px;
@@ -143,8 +143,8 @@ hr{
 	position: relative;
 }
 .intro{		/*debug*/
-	float: left;
-	position: absolute;
+	margin: 0 0;
+	height: 800px;
 }
 .intro .title{	/*debug*/
 	top: 40px;
@@ -153,6 +153,20 @@ hr{
 	left: 10px;
 	top: 50px;
 }
+
+/*
+	========
+	Pictures
+	========
+*/
+.backing{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	z-index: -1;
+}
+
+
 /*
 	========
 	Portfolio Pages
