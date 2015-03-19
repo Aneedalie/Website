@@ -1,4 +1,4 @@
-# Personal_Website
+# Personal Website
 Portfoio website including art and technology projects/works.
 
 To include:
