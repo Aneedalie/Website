@@ -145,8 +145,9 @@ hr{
 	padding: 10px;
 }
 .column-third{
-    float:left;
-    max-width: 30%;
+    float: left;
+    padding: 10px;
+    width: 29%;
 }
 .column-fourth{
     display: inline-block;
@@ -167,9 +168,30 @@ hr{
 }
 .intro-description{
 	margin-left: 25%;
-	padding-top: calc(100vh/4);
+	margin-top: calc(100vh/4);
 }
-
+.about-intro{
+    padding-top: 50px;
+    margin-left: 80px;
+    position: absolute;
+}
+/*
+    ========
+    About Page
+    ========
+*/
+.profile-pic{
+    margin-left: 20%;
+    margin-top: calc(100vh/4);
+    border-radius: 300px;
+    height: 300px;
+    width: 300px;
+    background-color: antiquewhite;
+}
+.stat{
+    display: block;
+    width: 100%;
+}
 /*
 	========
 	Portfolio Pages
@@ -181,7 +203,8 @@ hr{
     margin: 0 15px 40px 15px;
 }
 .picture{
-    max-width: 100%;
+    display: inline-block;
+    max-width: 300px;
     max-height: 300px;
     width: 10000px;
     height: 10000px;
@@ -268,7 +291,7 @@ img .entry: hover{
 	
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h1-2, h2, h3, h4, h5, h6{
 	margin-bottom: 0px;
 	font-family: "Nexa", "Arial", sans-serif;
 	font-weight: bold;
@@ -276,6 +299,11 @@ h1, h2, h3, h4, h5, h6{
 h1{
 	font-size: 80pt;
 	margin: 10px 0px;
+}
+h1-2{
+    display: block;
+    font-size: 60pt;
+    margin: 10px 0px;
 }
 h2{
   font-size: 18pt;
@@ -307,4 +335,13 @@ a:link{
 }
 a:hover{
 	color: #FF7B29;
+}
+.sub{
+    margin-top: -15px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: right;
+}
+.info{
+    margin: 50px 0 20px 0;
 }
