@@ -1,104 +1,104 @@
 /*
-	========
-	Eric Meyer's CSS Reset
-	http://meyerweb.com/eric/tools/css/reset/ 
-	v2.0 | 20110126
-	License: none (public domain)
-	========
+    ========
+    Eric Meyer's CSS Reset
+    http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+    ========
 */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 div{
     display: inline-block;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after, q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /*
-	========
-	Grid
-	========
+    ========
+    Grid
+    ========
 */
 
 *,
 *:before,
 *:after{
-	-webkit-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
 
 /*
-	========
-	Clearfix
-	========
+    ========
+    Clearfix
+    ========
 */
 .group:before, .group:after{
-	content: "";
-	display: table;
+    content: "";
+    display: table;
 }
 .group:before{
-	clear: both;
+    clear: both;
 }
 .group:after{
-	clear: both;
-	*zoom: 1;
+    clear: both;
+    *zoom: 1;
 }
 
 /*
-	========
-	General
-	========
+    ========
+    General
+    ========
 */
 header{
-	/*position: fixed;*/
-	width: 100%;
-	height: 80px;
-	z-index: 1;
+    /*position: fixed;*/
+    width: 100%;
+    height: 80px;
+    z-index: 1;
 }
 nav{
     height: 80px;
     border-top: 5px solid #5BEBCA;
 }
-.offset{		/*not very necessary anymore*/
-	position: relative;
-	top: 80px;
+.offset{        /*not very necessary anymore*/
+    position: relative;
+    top: 80px;
 }
 footer{
-	background-color: #5BEBCA;
-	position: relative;
-	top: 80px;
-	clear: both;
-	width: 100%;
-	height: 120px;
-	padding: 5px;
+    background-color: #5BEBCA;
+    position: relative;
+    top: 80px;
+    clear: both;
+    width: 100%;
+    height: 120px;
+    padding: 5px;
     text-align: right;
     font-family: "Nexa", "sans-serif";
 }
@@ -106,31 +106,31 @@ footer{
     margin-top: 40px;
 }
 p{
-	font-family: sans-serif;
-	font-size: 12pt;
-	color: #000000;
-	display: inline-block;
+    font-family: sans-serif;
+    font-size: 12pt;
+    color: #000000;
+    display: inline-block;
 }
 hr{
-	background-color: #FFF;
-	border: 0;
-	height: 1.5px;
+    background-color: #FFF;
+    border: 0;
+    height: 1.5px;
 }
 
 .container, .grid{
-	margin: 0;
-	width: calc(100% - 100)px;
+    margin: 0;
+    width: calc(100% - 100)px;
 }
 .container{
-	padding: 0 calc(100%/10);
+    padding: 0 calc(100%/10);
 }
 .grid{
     text-align: center;
     padding: 0 10px;
 }
 .content{
-	margin: 0;
-	padding: 0 10px;
+    margin: 0;
+    padding: 0 10px;
     text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
@@ -140,9 +140,9 @@ hr{
     clear: both;
 }
 .column-half{
-	float: left;
-	width: 49%;
-	padding: 10px;
+    float: left;
+    width: 49%;
+    padding: 10px;
 }
 .column-third{
     float: left;
@@ -151,24 +151,24 @@ hr{
 }
 .column-fourth{
     display: inline-block;
-	padding: 10px 15px;
-	margin: 10px 10px;
+    padding: 10px 15px;
+    margin: 10px 10px;
     max-width: 23%;
 }
 .img-opening{
-	float: left;
-	position: relative;
+    float: left;
+    position: relative;
 }
 .intro{
-	margin: 0;
-	padding: 0;
-	height: 900px;
-	height: calc(100vh - 80px);
-	display: block;
+    margin: 0;
+    padding: 0;
+    height: 900px;
+    height: calc(100vh - 80px);
+    display: block;
 }
 .intro-description{
-	margin-left: 25%;
-	margin-top: calc(100vh/4);
+    margin-left: 25%;
+    margin-top: calc(100vh/4);
 }
 .about-intro{
     padding-top: 50px;
@@ -186,19 +186,18 @@ hr{
     border-radius: 300px;
     height: 300px;
     width: 300px;
-    background-color: antiquewhite;
+    background-color: #FFF;
 }
 .stat{
     display: block;
     width: 100%;
 }
 /*
-	========
-	Portfolio Pages
-	========
+    ========
+    Portfolio Pages
+    ========
 */
 .entry{
-    width: 100%;
     padding: 0 10px;
     margin: 0 15px 40px 15px;
 }
@@ -214,32 +213,32 @@ img .entry: hover{
     
 }
 .title{
-	background-color: #FFF;
-	height: 50px;
+    background-color: #FFF;
+    height: 50px;
     border-bottom: 5px solid #5BEBCA;
-	padding: 10px;
-	width: 100%;
+    padding: 10px;
+    width: 100%;
 }
 /*
-	========
-	Buttons
-	========
+    ========
+    Buttons
+    ========
 */
 .main-nav{
     
 }
 
 .btn{
-	padding: 0;
+    padding: 0;
     margin: 0;
-	display: inline-block;
+    display: inline-block;
 }
 .btn:hover{
     background-color: #5BEBCA;
 }
 .btn-home{
-	padding: 10px 0px;
-	float: left;
+    padding: 10px 0px;
+    float: left;
 }
 .btn-home-text{
     padding: 28px 15px;
@@ -249,8 +248,8 @@ img .entry: hover{
     background-color: transparent;
 }
 .btn-nav{
-	height: 80px;
-	padding: 32px 20px;
+    height: 80px;
+    padding: 32px 20px;
     /*
     transition: background-color 0.5s ease-in;
     */
@@ -260,18 +259,18 @@ img .entry: hover{
 }
 
 /*
-	========
-	Pictures
-	========
+    ========
+    Pictures
+    ========
 */
 .intro-backing{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 90%;
-	height: calc(100vh - 80px);
-	position: absolute;
-	z-index: -1;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 90%;
+    height: calc(100vh - 80px);
+    position: absolute;
+    z-index: -1;
 }
 
 .logo{
@@ -280,25 +279,25 @@ img .entry: hover{
 }
 
 /*
-	========
-	Typography
-	========
+    ========
+    Typography
+    ========
 */
 @font-face{ /* http://fontfabric.com/nexa-free-font/ */
-	font-family: "Nexa";
-	src: local("Nexa"), url("nexa_bold.otf") format("otf");
-	font-weight: bold;
-	
+    font-family: "Nexa";
+    src: local("Nexa"), url("nexa_bold.otf") format("otf");
+    font-weight: bold;
+    
 }
 
 h1, h1-2, h2, h3, h4, h5, h6{
-	margin-bottom: 0px;
-	font-family: "Nexa", "Arial", sans-serif;
-	font-weight: bold;
+    margin-bottom: 0px;
+    font-family: "Nexa", "Arial", sans-serif;
+    font-weight: bold;
 }
 h1{
-	font-size: 80pt;
-	margin: 10px 0px;
+    font-size: 80pt;
+    margin: 10px 0px;
 }
 h1-2{
     display: block;
@@ -307,14 +306,14 @@ h1-2{
 }
 h2{
   font-size: 18pt;
-	padding: 25px 25px;
+    padding: 25px 25px;
 }
 h3{
-	color: #000;
+    color: #000;
     font-size: 16pt;
 }
 h4{
-	font-family: "Open Sans";
+    font-family: "Open Sans";
     font-size: 14pt;
 }
 h6{
@@ -322,19 +321,19 @@ h6{
     color: #000;
 }
 p{
-	font-family: "Times", serif;
-	font-weight: 300;
-	font-size: 14pt;
-	line-height: 125%;
+    font-family: "Open Sans", "sans-serif";
+    font-weight: 300;
+    font-size: 14pt;
+    line-height: 125%;
 }
 a:link{
-	text-decoration: none;
-	color: #10C2D2;
-	display: inline-block;
-	/*take away underline*/
+    text-decoration: none;
+    color: #10C2D2;
+    display: inline-block;
+    /*take away underline*/
 }
 a:hover{
-	color: #FF7B29;
+    color: #FF7B29;
 }
 .sub{
     margin-top: -15px;
