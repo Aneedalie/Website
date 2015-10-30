@@ -60,14 +60,14 @@ table {
     Clearfix
     ========
 */
-.group:before, .group:after{
+.group:before, .group:after {
     content: "";
     display: table;
 }
-.group:before{
+.group:before {
     clear: both;
 }
-.group:after{
+.group:after {
     clear: both;
     *zoom: 1;
 }
@@ -77,21 +77,21 @@ table {
     General
     ========
 */
-header{
+header {
     /*position: fixed;*/
     width: 100%;
     height: 80px;
     z-index: 1;
 }
-nav{
+nav {
     height: 80px;
     border-top: 5px solid #5BEBCA;
 }
-.offset{        /*not very necessary anymore*/
+.offset {        /*not very necessary anymore*/
     position: relative;
     top: 80px;
 }
-footer{
+footer {
     background-color: #5BEBCA;
     position: relative;
     top: 80px;
@@ -102,75 +102,75 @@ footer{
     text-align: right;
     font-family: "Nexa", "sans-serif";
 }
-.primary-footer{
+.primary-footer {
     margin-top: 40px;
 }
-p{
+p {
     font-family: sans-serif;
     font-size: 12pt;
     color: #000000;
     display: inline-block;
 }
-hr{
+hr {
     background-color: #FFF;
     border: 0;
     height: 1.5px;
 }
 
-.container, .grid{
+.container, .grid {
     margin: 0;
     width: calc(100% - 100)px;
 }
-.container{
+.container {
     padding: 0 calc(100%/10);
 }
-.grid{
+.grid {
     text-align: center;
     padding: 0 10px;
 }
-.content{
+.content {
     margin: 0;
     padding: 0 10px;
     text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
 }
-.single{
+.single {
     display: block;
     clear: both;
 }
-.column-half{
+.column-half {
     float: left;
     width: 49%;
     padding: 10px;
 }
-.column-third{
+.column-third {
     float: left;
     padding: 10px;
     width: 29%;
 }
-.column-fourth{
+.column-fourth {
     display: inline-block;
     padding: 10px 15px;
     margin: 10px 10px;
     max-width: 23%;
 }
-.img-opening{
+.img-opening {
     float: left;
     position: relative;
 }
-.intro{
+.intro {
     margin: 0;
     padding: 0;
     height: 900px;
     height: calc(100vh - 85px);
     display: block;
 }
-.intro-description{
+.intro-description {
     margin-left: 25%;
     margin-top: calc(100vh/4);
 }
-.about-intro{
+.about-intro {
     padding-top: 50px;
     margin-left: 80px;
     position: absolute;
@@ -180,7 +180,7 @@ hr{
     About Page
     ========
 */
-.profile-pic{
+.profile-pic {
     margin-left: 20%;
     margin-top: calc(100vh/4);
     border-radius: 300px;
@@ -188,7 +188,7 @@ hr{
     width: 300px;
     background-color: #FFF;
 }
-.stat{
+.stat {
     display: block;
     width: 100%;
 }
@@ -197,11 +197,11 @@ hr{
     Portfolio Pages
     ========
 */
-.entry{
+.entry {
     padding: 0 10px;
     margin: 0 15px 40px 15px;
 }
-.picture{
+.picture {
     display: inline-block;
     max-width: 300px;
     max-height: 300px;
@@ -209,10 +209,10 @@ hr{
     height: 10000px;
     background-color: #DDD;
 }
-img .entry: hover{
+img .entry: hover {
     
 }
-.title{
+.title {
     background-color: #FFF;
     height: 50px;
     border-bottom: 5px solid #5BEBCA;
@@ -224,37 +224,34 @@ img .entry: hover{
     Buttons
     ========
 */
-.main-nav{
-    
-}
 
-.btn{
+.btn {
     padding: 0;
     margin: 0;
     display: inline-block;
 }
-.btn:hover{
+.btn:hover {
     background-color: #5BEBCA;
 }
-.btn-home{
+.btn-home {
     padding: 10px 0px;
     float: left;
 }
-.btn-home-text{
+.btn-home-text {
     padding: 28px 15px;
     height: 80px;
 }
-.btn-home:hover, .btn-home-text:hover{
+.btn-home:hover, .btn-home-text:hover {
     background-color: transparent;
 }
-.btn-nav{
+.btn-nav {
     height: 80px;
     padding: 32px 20px;
     /*
     transition: background-color 0.5s ease-in;
     */
 }
-.navbar{
+.navbar {
     float: right;
 }
 
@@ -263,17 +260,19 @@ img .entry: hover{
     Pictures
     ========
 */
-.intro-backing{
+.intro-backing {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 90%;
     height: calc(100vh - 80px);
     position: absolute;
+    background-repeat: no-repeat; 
+    background-size: cover;
     z-index: -1;
 }
 
-.logo{
+.logo {
     height: 55px;
     width: 50px;
 }
@@ -283,64 +282,70 @@ img .entry: hover{
     Typography
     ========
 */
-@font-face{ /* http://fontfabric.com/nexa-free-font/ */
+@font-face { /* http://fontfabric.com/nexa-free-font/ */
     font-family: "Nexa Bold";
     src: local("Nexa Bold"), url("nexa_bold.otf") format("otf");
     font-weight: bold;
     
 }
 
-h1, h1-2, h2, h3, h4, h5, h6{
+h1, h1-2, h2, h3, h4, h5, h6 {
     margin-bottom: 0px;
     font-family: "Nexa Bold", "Arial", sans-serif;
     font-weight: bold;
 }
-h1{
+h1 {
     font-size: 80pt;
     margin: 10px 0px;
 }
-h1-2{
+h1-2 {
     display: block;
     font-size: 60pt;
     margin: 10px 0px;
 }
-h2{
+h2 {
   font-size: 18pt;
     padding: 25px 25px;
 }
-h3{
+h3 {
     color: #000;
     font-size: 16pt;
 }
-h4{
+h4 {
     font-family: "Open Sans";
     font-size: 14pt;
 }
-h6{
+h6 {
     font-size:11pt;
     color: #000;
 }
-p{
+p {
     font-family: "Open Sans", "sans-serif";
     font-weight: 300;
     font-size: 14pt;
     line-height: 125%;
 }
-a:link{
+a:link {
     text-decoration: none;
     color: #10C2D2;
     display: inline-block;
     /*take away underline*/
 }
-a:hover{
+a:hover {
     color: #FF7B29;
 }
-.sub{
+a:visited{
+    color: black;
+}
+.sub {
     margin-top: -15px;
     margin-bottom: 10px;
     display: block;
     text-align: right;
 }
-.info{
+.info {
     margin: 50px 0 20px 0;
+}
+.title {
+    font-family: "Open Sans", "sans-serif";
 }
