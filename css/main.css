@@ -163,7 +163,7 @@ hr{
     margin: 0;
     padding: 0;
     height: 900px;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 85px);
     display: block;
 }
 .intro-description{
