@@ -284,15 +284,15 @@ img .entry: hover{
     ========
 */
 @font-face{ /* http://fontfabric.com/nexa-free-font/ */
-    font-family: "Nexa";
-    src: local("Nexa"), url("nexa_bold.otf") format("otf");
+    font-family: "Nexa Bold";
+    src: local("Nexa Bold"), url("nexa_bold.otf") format("otf");
     font-weight: bold;
     
 }
 
 h1, h1-2, h2, h3, h4, h5, h6{
     margin-bottom: 0px;
-    font-family: "Nexa", "Arial", sans-serif;
+    font-family: "Nexa Bold", "Arial", sans-serif;
     font-weight: bold;
 }
 h1{
