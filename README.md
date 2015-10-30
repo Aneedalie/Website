@@ -3,7 +3,7 @@ Portfoio website including art and technology projects/works.
 
 Art
 --
-The art section includes digital and traditional works. This ncludes but are not limited to sketches, paintings, illustrations, and graphic design.
+The art section includes digital and traditional works. This includes but are not limited to sketches, paintings, illustrations, and graphic design.
 
 Technology
 --
