@@ -12,7 +12,11 @@ The technology section includes software and hardware projects. This includes bu
 
 Goals
 --
-Using HTMl, CSS, PHP, and SQL.
+Using HTML, CSS, JavaScript, PHP, and SQL.
+Want to implement LAMP stack (Linux, Apache, MySQL, and PHP)
 To include:
 - parallax scrolling
 - responsive design
+- three line diary that includes location, weather, and what you’re doing at the time
+- 500px api to header image of website
+- portfolio section that allows dropdowns for more detail on work (for people who casually want to look at them, it won't crowd the interface but it'll allow people to read more about the project if they want to)
