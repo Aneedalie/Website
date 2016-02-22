@@ -1,0 +1,80 @@
+/*
+    ========
+    Typography
+    ========
+*/
+/*http://fontfabric.com/nexa-free-font/ */
+/*
+@font-face {  
+    font-family: "Nexa Bold";
+    src: local("Nexa Bold"), url("nexa_bold.otf") format("otf");
+    font-weight: bold;   
+}
+*/
+
+@font-face {
+    font-family: "Gidole";
+    src: local("Gidole"), url("gidole.otf") format("otf");
+    font-weight: normal;
+}
+
+h1, h1-2, h2, h3, h4, h5, h6 {
+    margin-bottom: 0px;
+    font-family: "Gidole", "Nexa Bold", "Arial", sans-serif;
+    font-weight: bold;
+}
+h1 {
+    font-size: 50pt;
+    margin: 10px 0px;
+}
+h1-2 {
+    display: block;
+    font-size: 60pt;
+    margin: 10px 0px;
+}
+h2 {
+  font-size: 18pt;
+    padding: 25px 25px;
+}
+h3 {
+    color: #000;
+    font-size: 16pt;
+}
+h4 {
+    font-family: "Open Sans";
+    font-size: 14pt;
+}
+h6 {
+    font-size:11pt;
+    color: #000;
+}
+p {
+    font-family: "Open Sans", "sans-serif";
+    font-weight: 300;
+    font-size: 12pt;
+    line-height: 125%;
+}
+a:link {
+    text-decoration: none;
+    color: #10C2D2;
+    display: inline-block;
+    /*take away underline*/
+}
+a:hover {
+    color: #FF7B29;
+}
+a:visited{
+    color: #10C2D2;
+}
+.sub {
+    margin-top: -15px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: right;
+}
+.info {
+    margin: 50px 0 20px 0;
+}
+.title {
+    font-family: "Open Sans", "sans-serif";
+}

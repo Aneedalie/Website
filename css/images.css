@@ -1,0 +1,35 @@
+/*
+    ========
+    Pictures
+    ========
+*/
+.intro-backing {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#bkgd-home {
+    background: url('../images/deep-cove.JPG');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/deep-cove.JPG');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    z-index: -1;
+}
+
+.logo {
+/*    margin-top: 2px;*/
+    height: 40px;
+    width: 35px;
+}
+
+.profile-pic {
+    margin-left: 20%;
+    margin-top: calc(100vh/4);
+    border-radius: 300px;
+    height: 300px;
+    width: 300px;
+    background-color: #DDD;
+}
