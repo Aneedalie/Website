@@ -3,34 +3,3 @@
 @import url("assets.css");
 @import url("typography.css");
 @import url("images.css");
-
-/*
-    ========
-    Grid
-    ========
-*/
-
-*,
-*:before,
-*:after{
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-}
-
-/*
-    ========
-    Clearfix
-    ========
-*/
-.group:before, .group:after {
-    content: "";
-    display: table;
-}
-.group:before {
-    clear: both;
-}
-.group:after {
-    clear: both;
-    *zoom: 1;
-}
