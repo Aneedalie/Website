@@ -13,7 +13,7 @@
 h1, h1-2, h2, h3, h4, h5, h6 {
     margin-bottom: 0px;
     font-family: "Gidole", "Arial", sans-serif;
-    font-weight: bold;
+    font-weight: normal;
 }
 h1 {
     font-size: 50pt;
@@ -56,11 +56,11 @@ a:link {
     display: inline-block;
     /*take away underline*/
 }
-a:hover {
-    color: #FF7B29;
-}
 a:visited{
     color: #10C2D2;
+}
+a:hover {
+    color: #FF7B29;
 }
 strong {
     font-weight: 600;
