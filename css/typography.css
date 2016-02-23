@@ -46,6 +46,10 @@ p {
     font-size: 12pt;
     line-height: 125%;
 }
+a {
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+}
 a:link {
     text-decoration: none;
     color: #10C2D2;
@@ -63,6 +67,9 @@ strong {
 }
 em {
     font-style: italic;
+}
+small {
+    font-size: 10pt;
 }
 .sub {
     margin-top: -15px;

@@ -13,23 +13,32 @@
 }
 #bkgd-home {
     background: url('../images/deep-cove.JPG');
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/deep-cove.JPG');
     background-repeat: no-repeat; 
     background-size: cover;
-    z-index: -1;
+}
+#bkgd-about {
+    background: url('../images/xitang.JPG');
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 
 .logo {
-/*    margin-top: 2px;*/
     height: 40px;
     width: 35px;
 }
-
+.icon {
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+}
 .profile-pic {
-    margin-left: 20%;
-    margin-top: calc(100vh/4);
-    border-radius: 300px;
-    height: 300px;
-    width: 300px;
+    margin: 50px 0 30px calc((100% - 250px)/2);
+    border: 2px solid #5BEBCA;
+    border-radius: 250px;
+    height: 250px;
+    width: 250px;
     background-color: #DDD;
+    background: url('../images/profile_pic.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
