@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "Gidole";
-    src: local("Gidole"), url("gidole.otf") format("otf");
+    src: local("Gidole"), url("fonts/Gidole-Regular.ttf") format("ttf");
     font-weight: normal;
 }
 
