@@ -5,9 +5,8 @@
 */
 
 @font-face {
-    font-family: "Gidole";
-    src: local("Gidole"), url("fonts/Gidole-Regular.ttf") format("ttf");
-    font-weight: normal;
+    font-family: Gidole;
+    src: url(Gidole-Regular.ttf);
 }
 
 h1, h1-2, h2, h3, h4, h5, h6 {
