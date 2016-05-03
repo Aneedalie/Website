@@ -24,17 +24,9 @@ h1-2 {
     font-size: 60pt;
     margin: 10px 0px;
 }
-h2 {
-  font-size: 18pt;
-    padding: 25px 25px;
-}
 h3 {
-    color: #000;
-    font-size: 16pt;
-}
-h4 {
-    font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serifs;
-    font-size: 14pt;
+    font-size: 20pt;
+    margin: 20px 0px 10px 0px;
 }
 h6 {
     font-size:11pt;
