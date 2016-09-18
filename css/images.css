@@ -17,11 +17,20 @@
     background-size: cover;
 }
 #bkgd-about {
-    background: url('../images/xitang.JPG');
+    background: url('../images/xitang.jpg');
     background-repeat: no-repeat; 
     background-size: cover;
 }
-
+#bkgd-tech {
+    background: url('../images/seattle-night.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;   
+}
+#bkgd-art {
+    background: url('../images/van-pier.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;   
+}
 .logo {
     height: 40px;
     width: 35px;
