@@ -41,8 +41,9 @@
     width: 20px;
 }
 .profile-pic {
-    display: block;
-    margin: 50px 0 30px calc((100% - 250px)/2);
+    /*display: block;*/
+    float: left;
+    margin: 50px 40px;
     border: 2px solid #5BEBCA;
     border-radius: 250px;
     height: 250px;

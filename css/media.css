@@ -1,0 +1,17 @@
+@media all and (max-width: 1100px) {
+    .p {
+        text-align: center;
+    }
+    .profile-pic {
+        margin: 50px 0 30px calc((100% - 250px)/2);
+        float: none;
+        display: block;
+    }
+    .about-info {
+        margin: 0 10% 50px 10%;
+        width: calc(100% - 100%/5);
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}
