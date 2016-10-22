@@ -66,6 +66,7 @@ hr {
     padding: 50px;
     margin-left: 10%;
     margin-top: calc(100vh/8);
+    max-width: 550px;
 }
 #intro-home {
     background: rgba(0,0,0,0.5);
