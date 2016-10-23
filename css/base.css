@@ -95,3 +95,9 @@ hr {
     margin-left: 40px;
     width: calc(100% - 370px);
 }
+.social-media {
+    font: inherit;
+}
+.social-media .item {
+    margin-right: 20px;
+}

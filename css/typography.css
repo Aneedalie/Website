@@ -43,6 +43,8 @@ p {
     font-size: 12pt;
     line-height: 125%;
 }
+p .social-media {
+}
 a {
     text-decoration: underline;
     text-decoration-color: aquamarine;
@@ -51,7 +53,6 @@ a:link {
     text-decoration: none;
     color: #10C2D2;
     display: inline-block;
-    /*take away underline*/
 }
 a:visited{
     color: #10C2D2;
@@ -79,4 +80,10 @@ small {
 }
 .title {
     font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serifs;
+}
+.social-media {
+    font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serifs;
+    font-weight: 300;
+    font-size: 12pt;
+    line-height: 125%;
 }
